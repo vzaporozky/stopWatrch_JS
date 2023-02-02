@@ -2,9 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-body .main {
-  min-height: 100vh;
+  min-height: 100%;
   background-color: #654001;
 }
 body .main .main_center {

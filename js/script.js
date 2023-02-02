@@ -75,13 +75,16 @@ function time(){
 
 button_start.onclick = function(){
     if(t){}
-    else time()
+    else 
+    time()
 };
 button_stop.onclick = function() {
     clearTimeout(t);
+    t = 0;
 }
 button_reset.onclick = function(){
     clearTimeout(t);
+    t = 0;
     timer.textContent = '00:00:00';
     ss = mm = hh = 0;
 }
