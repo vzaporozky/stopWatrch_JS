@@ -1,26 +1,29 @@
-.main {
-  width: 100%;
+body {
+  display: flex;
+  flex-direction: column;
+}
+body .main {
   min-height: 100vh;
   background-color: #654001;
 }
-.main .main_center {
+body .main .main_center {
   display: flex;
   flex-direction: column;
   width: 500px;
   margin: auto;
 }
-.main .main_center h1 {
+body .main .main_center h1 {
   margin: auto;
 }
-.main .main_center h2 {
+body .main .main_center h2 {
   margin: auto;
 }
-.main .main_center .buttons_div {
+body .main .main_center .buttons_div {
   display: flex;
   justify-content: space-evenly;
   margin-top: 20px;
 }
-.main .main_center .buttons_div .button {
+body .main .main_center .buttons_div .button {
   padding-top: 3px;
   padding-bottom: 3px;
   padding-right: 15px;
