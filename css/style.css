@@ -1,6 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 body .main {
   min-height: 100vh;
@@ -9,7 +10,7 @@ body .main {
 body .main .main_center {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 270px;
   margin: auto;
 }
 body .main .main_center h1 {
