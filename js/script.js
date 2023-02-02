@@ -73,7 +73,10 @@ function time(){
 }
 
 
-button_start.onclick = time;
+button_start.onclick = function(){
+    if(t){}
+    else time()
+};
 button_stop.onclick = function() {
     clearTimeout(t);
 }
